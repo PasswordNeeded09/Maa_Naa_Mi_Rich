@@ -1,0 +1,164 @@
+Website / Webpage / Dashboard Development
+Main activity is CCP.....Catering is Secondary.
+
+--1--
+Key Activities For Customers:
+-Place Orders
+-See Available Stock
+-Setting date (Day) for Deliveries
+-Request Services (Info on a given product)
+
+Key Activities For Producers (Bus Owners):
+-Update Stock Status.
+-Interact with Customers.
+-Set Prices and Promos.
+-
+
+--2--
+-Page/Site/Dashboard should be interactive.
+-Diplay Customer Details (Name, Email if any, Phone Number, Stock Ordered, Location).
+-Order Details should contain Customer Detail above...
+-Workers receive a notification once an order is placed. (Customer is called once the employees acknowledge receipt). 
+ 
+--3--
+Images to be used:
+-Product Images
+-Bus Logo (Both sub-sections of Bus)
+-Service Images
+
+--4--
+Links to be used:
+-Link to Bus Man Email.
+-Link to Bus Man Number.
+-Link to Bus Man Sub-Sections.
+
+
+
+NB:
+Do for:
+-Chef Solo
+-Maana Mi Rich
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NB:
+Hosting would be done on GitHub Webpages (Static version) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Front-End & Web Development
+Website Development: Building business websites, portfolios, blogs, landing pages, and more.
+
+WordPress Development: Building themes, plugins, customization, and full sites.
+
+Shopify Development: Setting up custom stores, themes, and app integrations.
+
+React / Next.js Development: Developing high-performance, modern web applications.
+
+Back-End, Databases & Architecture
+Web Applications: Creating custom web apps built for specific business needs.
+
+Database Development: Working with MySQL, PostgreSQL, MongoDB, and more.
+
+Node.js / PHP / Python Development: Creating powerful and scalable backend solutions.
+
+API Integration: Integrating third-party APIs, payment APIs, and custom APIs.
+
+E-Commerce & Business Solutions
+E-Commerce Solutions: Developing online stores with payment gateways and order management systems.
+
+Custom Dashboards: Designing admin panels, analytics dashboards, and CRMs.
+
+UI/UX & Design
+UI/UX Design: Crafting modern, responsive, and user-friendly designs.
+
+Automation, Scripting & Bots
+Discord Bots & Telegram Bots: Building custom bots for servers and channels.
+
+Automation Scripts: Writing Python and Bash scripts for auto tasks, web scraping, and more.
+
+Maintenance, Optimization & Support
+Bug Fixes & Maintenance: Fixing bugs, improving performance, and keeping sites safe.
+
+SEO & Performance Optimization: Optimizing sites to rank higher, load faster, and drive traffic.
+
+Hosting & Infrastructure Services
+Domain Registration
+
+Shared Hosting
+
+VPS Hosting
+
+Dedicated Servers
+
+Cloud Hosting
+
+Website Deployment
+
+SSL Certificates
+
+Email Hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
