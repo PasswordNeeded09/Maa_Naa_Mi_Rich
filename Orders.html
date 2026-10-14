@@ -12,12 +12,26 @@
   background-repeat: no-repeat;
   background-attachment: fixed;">
 
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html"> <button> Maa Naa Mi Rich Fast Food </button></a>
+<nav class="site-nav" aria-label="Main">
+<a href="index.html"><button> Home </button></a>
+<a href="#Menu"><button> Menu </button></a>
+<a href="#HowToOrder"><button> How To Order </button></a>
+<a href="#Extras"><button> Extras Guide </button></a>
+<a href="#OrderForm"><button> Place Order </button></a>
+<a href="#Contact"><button> Contact </button></a>
+</nav>
+</div>
+</header>
+
 <h1><b><u>Store Overview:</u></b></h1>
     <hr>
     <p><marquee>Welcome to Maa Naa Mi Rich Fast Food! We offer the best fast food in town.</marquee></p>
     <img src="Images/Foods.jpeg" style="max-width: 50%; height: auto;" alt="Foods">
 
-    <h2><marquee direction="right" behavior="alternate"><b><u>Our Menu:</u></b></marquee></h2>
+    <h2 id="Menu"><marquee direction="right" behavior="alternate"><b><u>Our Menu:</u></b></marquee></h2>
     <ul>
         <li><b>Waakye</b>
             <br><img src="Images/Waakye.png" style="max-width: 50%; height: auto;" alt="Waakye">
@@ -77,7 +91,7 @@
     </ul>
     <hr>
 
-    <h2><b><u>How To Order:</u></b></h2>
+    <h2 id="HowToOrder"><b><u>How To Order:</u></b></h2>
     <ol>
         <li>Choose your main dish
             <ol type="a">
@@ -104,7 +118,7 @@
 
     <!-- ===== EXTRAS GUIDE TABLE =====
          Shows what extras go with each dish, using th, td, colspan and rowspan. -->
-    <h2><b><u>Extras Guide:</u></b></h2>
+    <h2 id="Extras"><b><u>Extras Guide:</u></b></h2>
     <table border="2" cellpadding="8" style="border-collapse: collapse; background-color: white;">
         <tr>
             <!-- colspan="3": this header stretches across all three columns -->
@@ -140,7 +154,7 @@
     <!-- ===== ORDER FORM =====
          <form> wraps all the inputs. action = where the data is sent
          ("#" means nowhere for now), method = how it is sent (post keeps data out of the URL). -->
-    <h2><b><u>Place Your Order:</u></b></h2>
+    <h2 id="OrderForm"><b><u>Place Your Order:</u></b></h2>
     <form action="#" method="post">
 
         <!-- Text input: the "for" on the label matches the "id" on the input,
@@ -188,7 +202,7 @@
 
     <hr>
 
-    <h3><b><u>Contact Details:</u></b></h3>
+    <h3 id="Contact"><b><u>Contact Details:</u></b></h3>
     <h5>Reach out to place an order or know more about our services:</h5>
     <ul>
         <li><i><b>Name:</b></i></li>
