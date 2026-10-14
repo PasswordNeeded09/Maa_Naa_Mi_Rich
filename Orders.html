@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Naa Mi Rich Fast Food</title>
+</head>
+
+<body style="background-image: url('Images/BG-5.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;">
+
+<h1><b><u>Store Overview:</u></b></h1>
+    <hr>
+    <p><marquee>Welcome to Maa Naa Mi Rich Fast Food! We offer the best fast food in town.</marquee></p>
+    <img src="Images/Foods.jpeg" style="max-width: 50%; height: auto;" alt="Foods">
+
+    <h2><marquee direction="right" behavior="alternate"><b><u>Our Menu:</u></b></marquee></h2>
+    <ul>
+        <li><b>Waakye</b>
+            <br><img src="Images/Waakye.png" style="max-width: 50%; height: auto;" alt="Waakye">
+            <ul>
+                    <li>Description: A traditional Ghanaian dish made with rice and beans</li>
+                    <li>Toppings
+                    <ul>
+                        <li>Fried fish</li>
+                        <li>Boiled eggs</li>
+                        <li>Shito sauce</li>
+                    </ul>
+                    </li>
+            </ul>
+        </li><br>
+
+        <li><b>Jollof Rice</b>
+            <br><img src="Images/Jollof.png" style="max-width: 50%; height: auto;" alt="Jollof Rice">
+            <ul>
+                <li>Description: A popular West African dish made with rice, tomatoes, and spices</li>
+                <li>Served with
+                <ul>
+                    <li>Chicken</li>
+                    <li>Fish</li>
+                </ul>
+                </li>
+            </ul>
+        </li><br>
+
+        <li><b>Plain Rice</b>
+            <br><img src="Images/Rice.png" style="max-width: 50%; height: auto;" alt="Plain Rice">
+            <ul>
+                <li>Description: Simple rice, cooked to perfection</li>
+                <li>Can be paired with a variety of sides</li>
+            </ul>
+        </li><br>
+
+        <li><b>Salads</b>
+            <br><img src="Images/Salad.png" style="max-width: 50%; height: auto;" alt="Salad">
+            <ul>
+                <li>Ingredients
+                    <ul>
+                        <li>Lettuce</li>
+                        <li>Tomatoes</li>
+                        <li>Cucumbers</li>
+                    </ul>
+                </li>
+                <li>Additives
+                <ul>
+                    <li>Meats</li>
+                    <li>Fish</li>
+                    <li>Plantains</li>
+                    <li>Gari</li>
+                </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+
+    <h2><b><u>How To Order:</u></b></h2>
+    <ol>
+        <li>Choose your main dish
+            <ol type="a">
+                <li>Waakye</li>
+                <li>Jollof Rice</li>
+                <li>Plain Rice</li>
+                <li>Salad</li>
+            </ol>
+        </li>
+        <li>Choose your extras
+            <ol type="a">
+                <li>Protein (chicken, fish, boiled eggs)</li>
+                <li>Sides (plantains, gari, shito)</li>
+            </ol>
+        </li>
+        <li>Contact us to place your order
+            <ol type="a">
+                <li>Phone</li>
+                <li>Mail</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+
+    <!-- ===== EXTRAS GUIDE TABLE =====
+         Shows what extras go with each dish, using th, td, colspan and rowspan. -->
+    <h2><b><u>Extras Guide:</u></b></h2>
+    <table border="2" cellpadding="8" style="border-collapse: collapse; background-color: white;">
+        <tr>
+            <!-- colspan="3": this header stretches across all three columns -->
+            <th colspan="3">What can I add to my dish?</th>
+        </tr>
+        <tr>
+            <th>Group</th>
+            <th>Dish</th>
+            <th>Available Extras</th>
+        </tr>
+        <tr>
+            <!-- rowspan="3": "Rice Dishes" covers this row and the two below it -->
+            <td rowspan="3">Rice Dishes</td>
+            <td>Waakye</td>
+            <td>Fried fish, boiled eggs, shito sauce</td>
+        </tr>
+        <tr>
+            <td>Jollof Rice</td>
+            <td>Chicken, fish</td>
+        </tr>
+        <tr>
+            <td>Plain Rice</td>
+            <td>Any side of your choice</td>
+        </tr>
+        <tr>
+            <td>Healthy Option</td>
+            <td>Salad</td>
+            <td>Meats, fish, plantains, gari</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- ===== ORDER FORM =====
+         <form> wraps all the inputs. action = where the data is sent
+         ("#" means nowhere for now), method = how it is sent (post keeps data out of the URL). -->
+    <h2><b><u>Place Your Order:</u></b></h2>
+    <form action="#" method="post">
+
+        <!-- Text input: the "for" on the label matches the "id" on the input,
+             so clicking the label focuses the box. "name" is the key sent on submit. -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="e.g. Kofi Mensah" required>
+        <br><br>
+
+        <!-- Another text input for the phone number (maxlength limits the characters typed) -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone" placeholder="e.g. 0241234567" maxlength="10" required>
+        <br><br>
+
+        <!-- Password input: characters are hidden as dots while typing.
+             minlength sets the shortest password allowed. -->
+        <label for="password">Create a Password (to track your order):</label><br>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <br><br>
+
+        <!-- Checkboxes: the person can tick more than one.
+             Same "name" for the group, a different "value" for each choice. -->
+        <p>Choose your main dish(es):</p>
+        <input type="checkbox" id="waakye" name="dish" value="waakye">
+        <label for="waakye">Waakye</label><br>
+
+        <input type="checkbox" id="jollof" name="dish" value="jollof">
+        <label for="jollof">Jollof Rice</label><br>
+
+        <input type="checkbox" id="rice" name="dish" value="plain-rice">
+        <label for="rice">Plain Rice</label><br>
+
+        <input type="checkbox" id="salad" name="dish" value="salad">
+        <label for="salad">Salad</label>
+        <br><br>
+
+        
+        <input type="checkbox" id="contactme" name="contactme" value="yes" checked>
+        <label for="contactme">Contact me to confirm your order</label>
+        <br><br>
+
+        <!-- Submit button: sends the form data to the "action" address -->
+        <input type="submit" value="Submit Order">
+    </form>
+    <!-- ===== END ORDER FORM ===== -->
+
+    <hr>
+
+    <h3><b><u>Contact Details:</u></b></h3>
+    <h5>Reach out to place an order or know more about our services:</h5>
+    <ul>
+        <li><i><b>Name:</b></i></li>
+        <li><i><b>Phone:</b></i></li>
+        <li><i><b>Mail:</b></i></li>
+        <li><i><b>Location:</b></i></li>
+    </ul>
+    <hr>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15884.94811787214!2d-0.23976842389258982!3d5.531815719102318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf97318c6aabe3%3A0x3f7b752e574158f!2sKorle%20Gonno%2C%20Accra!5e0!3m2!1sen!2sgh!4v1789651670512!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+</body>
+</html>
